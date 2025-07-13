@@ -34,6 +34,8 @@ body {
   cursor: pointer;
   font-weight: 500;
   transition: all 0.2s;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .btn-primary {
@@ -43,6 +45,11 @@ body {
 
 .btn-primary:hover {
   background: #2563eb;
+}
+
+.btn-primary:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
 }
 
 .btn-success {
